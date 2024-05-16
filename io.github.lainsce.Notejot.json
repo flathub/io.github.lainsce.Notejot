@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Notejot",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Notejot",
     "rename-icon" : "io.github.lainsce.Notejot",
@@ -36,6 +36,10 @@
                     "type" : "archive",
                     "url" : "https://github.com/lainsce/notejot/archive/3.5.1.tar.gz",
                     "sha256" : "09fc420322646976594aba1c4d02a01e47d241f196d1c2a519553ad034784213"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "fix_appdata.patch"
                 }
             ]
         }
