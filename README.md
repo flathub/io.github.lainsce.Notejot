@@ -26,7 +26,3 @@ flatpak run io.github.lainsce.Notejot
 git clone git@github.com:flathub/io.github.lainsce.Notejot.git
 flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install io.github.lainsce.Notejot.json
 ```
-
----
-
-**Technologies**: GNOME, GTK4, Vala, Libhelium
